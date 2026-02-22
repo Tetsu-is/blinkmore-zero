@@ -6,6 +6,8 @@ Tracks your eye blink interval via webcam and displays it live in your Polybar s
 
 Inspired by [BlinkMore](https://github.com/oxremy/BlinkMore), a macOS app that encourages you to blink more often.
 
+![Polybar screenshot showing blink interval](images/screenshot.png)
+
 ## How it works
 
 `blink_detector.py` reads webcam frames and detects blinks using the Eye Aspect Ratio (EAR) method:
